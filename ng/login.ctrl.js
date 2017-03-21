@@ -5,5 +5,5 @@ angular.module('app')
     .then(function(response) {
       $scope.$emit('login', response.data);
     });
-  }
+  };
 });
